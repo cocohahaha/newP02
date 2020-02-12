@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <nav class="pages">
+        <a href=Stylesheet.html> Styleguide</a>
+        <a href=citation.html> Citation</a>
+        <a href=main.html> Main Page</a>
+
+    </nav>
+</head>
+ 
+<body>
+<header>
+        <h1>Style Guide</h1>
+
+
+            <nav class="category">
+                <p>
+                    Go to:</p>
+                <ol type="1">
+                    <li><a href="#interactive_elements">Interactive Elements</a></li>
+                    <li><a href="#text_elements">Text Elements</a></li>
+                    <li><a href="#combined_elements">Combined Elements</a></li>
+                </ol>
+
+
+            </nav>
+    </header>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+        <h2>1.Interactive Elements</h2>
+        <section class="element">
+            <h3>In-text link</h3>
+            <p id=link>This is the <a href="#">link</a>.</p>
+            <h4>Sample Code</h4>
+            <code>&lt;a href="#"&gt;This is the link.&lt;/a&gt;</code>
+        </section>
+
+        <section class="element">
+            <h3>Navigation Button</h3>
+
+            <nav class="nav1">
+
+                <a href="#">Navigation 1</a>
+                <a href="#">Navigation 2</a>
+                <a href="#">Navigation 3</a>
+
+            </nav>
+            <h4>Sample Code</h4>
+            <code>&lt;nav&gt;
+
+                &lt;a href="#"&gt;Navigation 1&lt;/a&gt;
+                &lt;a href="#"&gt;Navigation 2&lt;/a&gt;
+                &lt;a href="#"&gt;Navigation 3&lt;/a&gt;
+
+                &lt;/nav&gt;
+            </code>
+        </section>
+
+        <section class="element">
+            <h3>Submit/Reset Buttons</h3>
+            <p><button name="submit" class="submitButton">Submit</button></p>
+
+            <p><button name="reset" class="resetButton">Reset</button></p>
+
+
+
+            <h4>Sample Code</h4>
+
+            <code>
+                &lt;button name="submit" class="submitButton"&gt;Submit&lt;/button&gt;
+                &lt;button name="reset" class="resetButton"&gt;Reset&lt;/button&gt;
+            </code>
+
+
+        </section>
+
+        <section class="element">
+            <h3>Text Input Field</h3>
+            <div class="element1">
+
+                <label for="fName">Your Name:</label>
+
+                <input type="text" id="fName" placeholder="Coco Feng">
+            </div>
+
+
+            <h4>Sample Code</h4>
+
+            <code> &lt;div class="Tlabel"&gt;
+                &lt;label for="yourName"&gt;Name&lt;/label&gt;
+                &lt;input class="input" type="text" placeholder="Coco Feng"&gt;
+                &lt;/div&gt;
+            </code>
+        </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+        <h2>2.Text Elements</h2>
+
+        <section class="element">
+
+            <h3>Headings</h3>
+
+            <p id="eg1">Heading 1 (Main Title)</p>
+            <p id="eg2">Heading 2 (Section Header)</p>
+            <p id="eg3">Heading 3 header (Sub Section Header)</p>
+            <p id="eg4">Heading 4 header (Secondary Sub Section Header)</p>
+
+            <h4>Sample Code</h4>
+
+            <code>
+
+                &lt;h1&gt;Heading 1 (Main Title) &lt;/h1&gt;
+                &lt;h2&gt;Heading 2 (Section Header) &lt;/h2&gt;
+                &lt;h3&gt;Heading 3 header (Sub Section Header) &lt;/h3&gt;
+                &lt;h4&gt;Heading 4 header (Secondary Sub Section Header) &lt;/h4&gt;
+
+            </code>
+
+        </section>
+
+
+        <section class="element">
+            <h3>Paragraphs</h3>
+
+            <p>
+                A paragraph.
+
+            </p>
+
+            <h4>Sample Code</h4>
+
+            <code>
+                &lt;p&gt;A paragraph.&lt;/p&gt;
+            </code>
+        </section>
+
+        <section class="element">
+            <h3>Bulleted Lists</h3>
+
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <h4>Sample Code</h4>
+
+            <code>
+                &lt;ol class="1"&gt;
+                &lt;li&gt;Item 1&lt;/li&gt;
+                &lt;li&gt;Item 2&lt;/li&gt;
+                &lt;li&gt;Item 3&lt;/li&gt;
+                &lt;/ol&gt;
+            </code>
+
+        </section>
+
+        <section class="element">
+            <h3>Numbered Lists</h3>
+
+            <ol class="1">
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ol>
+            <h4>Sample Code</h4>
+
+            <code>
+                &lt;ol class="1"&gt;
+                &lt;li&gt;Item A&lt;/li&gt;
+                &lt;li&gt;Item B&lt;/li&gt;
+                &lt;li&gt;Item C&lt;/li&gt;
+                &lt;/ol&gt;
+            </code>
+
+        </section>
+
+    </section>
+
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+        <h2>3.Combined Elements</h2>
+        <section class="element">
+            <h3>Main Navigation</h3>
+
+            <nav class="menu">
+
+                <a href="#furnitures">Home</a>
+                <a href="#food">About</a>
+                <a href="#accessories">Collections</a>
+                <a href="#" checkout>Event</a>
+                <a href="#help">Contact</a>
+
+            </nav>
+            <h4>Sample Code</h4>
+            <code>
+
+                &lt;nav class="nav1"&gt;
+
+                &lt;a href="#home"&gt;Home&lt;/a&gt;
+                &lt;a href="#about"&gt;About&lt;/a&gt;
+                &lt;a href="#collections"&gt;Collections&lt;/a&gt;
+                &lt;a href="#event"&gt;Event&lt;/a&gt;
+                &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+
+                &lt;/nav&gt;
+            </code>
+
+        </section>
+
+        <section class="element">
+            <h3>Product Listing</h3>
+
+
+                    <div class="product">
+                <div class="product-item">
+                    <div class="product-image">
+                        <img class="img-container" src="img/1.jpg" alt="Product 1">
+
+                    </div>
+                    <div class="product-info">
+                        <a href="google.ca">
+                            <h3>Escapist 65ml</h3>
+                        </a>
+                        <h4>$94.99</h4>
+                    </div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-image">
+                        <img class="img-container" src="img/2.jpg" alt="Product 2">
+
+                    </div>
+                    <div class="product-info">
+                        <a href="google.ca">
+                            <h3>Amorist 65ml</h3>
+                        </a>
+                        <h4>$99.99</h4>
+                    </div>
+
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img class="img-container" src="img/3.jpg" alt="Product 3">
+
+                    </div>
+                    <div class="product-info">
+                        <a href="google.ca">
+                            <h3>Amorist 120ml</h3>
+                        </a>
+                        <h4>$58.99</h4>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="element">
+            <h3>Website Grid Structure</h3>
+
+            ?<br>?<br>?<br>?<br>
+        </section>
+        <section class="element">
+            <h3>Colour Swatches</h3>
+
+            <div class="container">
+                <div class="block" id="c1"></div>
+                <div class="block" id="c2"></div>
+                <div class="block" id="c3"></div>
+                <div class="block" id="c4"></div>
+                <div class="block" id="c5"></div>
+            </div>
+
+        </section>
+        
+        
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+</body>
+
+</html>
